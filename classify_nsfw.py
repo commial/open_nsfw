@@ -45,7 +45,7 @@ def caffe_preprocess_and_compute(pimg, caffe_transformer=None, caffe_net=None,
     :param PIL.Image pimg:
         PIL image to be input into Caffe.
     :param caffe.Net caffe_net:
-        A Caffe network with which to process pimg afrer preprocessing.
+        A Caffe network with which to process pimg after preprocessing.
     :param list output_layers:
         A list of the names of the layers from caffe_net whose outputs are to
         to be returned.  If this is None, the default outputs for the network
